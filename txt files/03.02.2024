@@ -1,0 +1,11 @@
+1. *args - arguments. *args orqali funksiyaga bir qancha ma'lumot berish mumkin. 
+
+2. **kwargs - keyword arguments. **kwargs orqali dicitonary ko'rinishidagi ma'lumotlarni funksiyaga berish mumkin. (make="GM", model="Malibu", price=32000) ko'rinishida yoziladi.
+ 
+3. math modulidan import qilinadigan 
+	a. shuffle - mavjud listni tartibsiz holatga keltiradi. shuffle(list)
+	b. sample - listni tartibsiz qiladi va ichidan k ta elementni sug'urib oladi. 	sample (list, k)
+
+4. lambda - nomsiz funksiya. yangi funksiya hosil qilishda ishlatiladi. map, filter funksiyalarida ishlatiladi.
+
+5. filter - variable = list (filter ( function , value )))  bu yerda funksiya True yoki False qiymat qaytarishi kerak. True qiymat qaytarganda funksiya sharti bajariladi.
